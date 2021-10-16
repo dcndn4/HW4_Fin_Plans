@@ -1,16 +1,19 @@
-# HW4_Fin_Plans
-Financial Planning
+#### *API's_HW_4*
+# Financial Planning
 
-My working document for this assignment
+This file accompanies the new financial analysis tools being provided to Large Credit Union customer. 
 
+## Goal of This Notebook 
+The goal of these analysis tools is to provide your credit union members with the ability to assess their monthly personal finances, and plan for their retirement. 
 
+### Part I - Personal Financial Planner
 
+With this planner, your members can input their cryptocurrency holdings, and their stocks and bonds portfolio, and review their current portfolio value. This planner utilizes the Alpaca API to gain access to up-to-the-minute currency values. The final step provides a comparison between current savings portfolio value and goal savings amount (based on monthly income), to provide your members with that important feedback about their financial health.
 
+### Part II - Retirement Planning Tood
 
-
-
-Getting the acknowledgements started right away this time!
+This retirement planning tool again uses the Alpaca API to get historical prices of the member's stock and bond holdings, and then utilizes a monte carlo simulation to project a range of likely values after the 30-year holding period. It also explores options for a shorter holding period (early retirement). 
 
 # Acknowledgements
 
-I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our TA, Alejandro Esquivel, and out Student Success Manager, Angelica Baraona. Thanks to Garth's continual resource suggestions I have lots of those to list as well. Stack Overflow was frequently consulted, as well as Geeks for Geeks, Python Pool, Github Docs, cmdlinetips, pandas reference doc, and the tech website collective in general. Regarding API's I found useful nuggets on the Red Hat site,   Finally, some of the main books I used during this project were "Continuous API Management - Making the Right Decisions in an Evolving Landscape by Medjaoui, Wilde, Mitra and Amundsen and API's, A Strategy Guide by Jacobson, Brail and Woods. 
+I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our TA, Alejandro Esquivel, and out Student Success Manager, Angelica Baraona. Also would like to mention Stack Overflow and the tech website collective in general. Regarding API's I found useful nuggets on the Red Hat site and the Alpaca site itself.  Finally, some of the main books I used for background during this boot camp phase were "Continuous API Management - Making the Right Decisions in an Evolving Landscape" by Medjaoui, Wilde, Mitra and Amundsen; and "API's, A Strategy Guide" by Jacobson, Brail and Woods. 
