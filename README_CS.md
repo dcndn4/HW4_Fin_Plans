@@ -14,6 +14,33 @@ With this planner, your members can input their cryptocurrency holdings, and the
 
 This retirement planning tool again uses the Alpaca API to get historical prices of the member's stock and bond holdings, and then utilizes a monte carlo simulation to project a range of likely values after the 30-year holding period. It also explores options for a shorter holding period (early retirement). 
 
+# Technical Notes
+
+## Libraries
+This Jupyter Lab notebook utilizes the following libraries:
+
+os
+
+Pandas
+
+Numpy
+
+dotenv
+
+JSON
+
+Pathlib
+
+Alpaca Trade API
+
+MCForecastTools
+
+matplotlib
+
+## Data Inputs
+
+Besides the elements related to those libraries, additional data to be input by the user includes their currency holdings, their stocks and bonds amounts, and their monthly income amounts.  
+
 # Acknowledgements
 
-I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our TA, Alejandro Esquivel, and out Student Success Manager, Angelica Baraona. The Monte Carlo simulation is run on the MCForecastTools toolkit, much appreciated. Also would like to mention Stack Overflow and the tech website collective in general. Regarding API's I found useful nuggets on the Red Hat site and the Alpaca site itself.  Finally, some of the main books I used for background during this boot camp phase were "Continuous API Management - Making the Right Decisions in an Evolving Landscape" by Medjaoui, Wilde, Mitra and Amundsen; and "API's, A Strategy Guide" by Jacobson, Brail and Woods. 
+I would like to first acknowledge the guidance and teaching of our FinTech Boot Camp Instructor, Garth Mortensen, our TA, Alejandro Esquivel, and out Student Success Manager, Angelica Baraona. The Monte Carlo simulation is run on the MCSimulation within the MCForecastTools toolkit, much appreciated. Also would like to mention Stack Overflow and the tech website collective in general. Regarding API's I found useful nuggets on the Red Hat site and the Alpaca site itself.  Finally, some of the main books I used for background during this boot camp phase were "Continuous API Management - Making the Right Decisions in an Evolving Landscape" by Medjaoui, Wilde, Mitra and Amundsen; and "API's, A Strategy Guide" by Jacobson, Brail and Woods. 
