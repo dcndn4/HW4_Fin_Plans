@@ -14,6 +14,8 @@ With this planner, your members can input their cryptocurrency holdings, and the
 
 This retirement planning tool again uses the Alpaca API to get historical prices of the member's stock and bond holdings, and then utilizes a monte carlo simulation to project a range of likely values after the 30-year holding period. It also explores options for a shorter holding period (early retirement). 
 
+### Combined version _ the Financial Planner program combines part I and part II for those customers who are interested in both tools.
+
 # Technical Notes
 
 ## Libraries
